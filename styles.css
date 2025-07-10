@@ -78,7 +78,7 @@ html {
   margin-bottom: 20px;
 }
 
-/* ager task er banner*/ 
+/* ager module task er banner*/ 
 .banner{
     display: flex;
     justify-content: space-between;
@@ -250,7 +250,7 @@ html {
   display: flex;
     justify-content: left;
 }
-/* Contact Section Styles - Side by Side Layout */
+
 .contact-section {
   padding: 80px 40px;
   background-color: #ffffff;
@@ -337,5 +337,49 @@ html {
 
 .submit-btn:hover {
   background-color: #35cbdf;
+}
 
+/* Footer Styles */
+.main-footer {
+  background-color: #ffcd8b; 
+  padding: 60px 20px;
+  color: #333;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-logo {
+  font-size: 5.5rem;
+  font-weight: 700;
+  color: #2e2eff; 
+  margin-bottom: 20px;
+}
+
+.footer-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-link {
+  color: #2b2d42;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.footer-link:hover {
+  color: #2ee0ff; 
 }
