@@ -161,3 +161,166 @@ html {
   font-weight: 500;
   letter-spacing: 0.5px;
 }
+
+
+/* Testimonials Section */
+.testimonials-section {
+  padding: 100px 20px;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #2b2d42;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  justify-items: left;
+}
+
+.rating-stars {
+  width: 30px;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+.testimonial-title {
+  font-size: 1.5rem;
+  text-align: left;
+  margin-bottom: 20px;
+  color: #2b2d42;
+}
+
+.testimonial-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: left;
+  margin-bottom: 30px;
+  color: #555;
+  font-style: italic;
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.reviewer-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewer-details {
+  text-align: left;
+}
+
+.reviewer-name {
+  font-weight: 600;
+  color: #2b2d42;
+  margin-bottom: 4px;
+}
+
+.review-date {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.koto-rating {
+  display: flex;
+    justify-content: left;
+}
+
+/* Contact Section Styles */
+.contact-section {
+  padding: 80px 40px;
+  background-color: #ffffff;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-title {
+  display: flex;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #2b2d42;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-group label {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #2b2d42;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 15px 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #2e2eff;
+}
+
+.form-group textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.submit-btn {
+  background-color: #2e2eff;
+  color: white;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.submit-btn:hover {
+  background-color: #35cbdf;
+}
