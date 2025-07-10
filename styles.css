@@ -45,7 +45,9 @@ html {
 .logo {
   font-weight: 750;
   color: #2e2eff;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  padding-left: 50px;
+  padding-top: 10px;
 }
 
 .btn {
@@ -70,9 +72,42 @@ html {
 }
 
 .center-text h1 {
-  font-size: 2.5rem;
+  font-size: 4.5rem;
   font-weight: bold;
   color: #111;
   margin-bottom: 20px;
 }
+
+/* ager task er banner*/ 
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+    padding: 50px 0;
+}
+.banner-content{
+    max-width: 680px;
+}
+.banner-description{
+    font-size: 20px;
+    color: #584e4e;
+    padding-bottom: 30px;
+}
+
+.banner-greetings{
+   font-size: 45px;
+   font-weight: 600;
+   padding: 20px 20px 20px 0;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 55px;
+    padding: 100px 20px 20px 0;
+}
+.profile-pic{
+    width: 580px;
+    border-radius: 20%;
+    padding: 40px;
+}
+
 
